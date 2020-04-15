@@ -1,0 +1,52 @@
+.configRb-container {
+    color:black;
+    width: 100%;  
+}
+.configRb-container Img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.configRb-nav-bar {
+    background-color: rgba(6, 8, 22, 0.92);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+}
+.configRb-nav-bar h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+.configRb-nav-bar h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(15, 212, 238, 0.7);
+    padding: 10px;
+}
+.div-sair {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    display: inline-flex;
+    font-size: 18px;
+}
+.body {
+    position:absolute;
+    top:200px;
+    left:30%;
+}
+.body button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(46, 144, 173, 0.89);
+    border: none;
+    width: 200px;
+}
+.body button:hover {
+    background-color: rgba(73, 151, 175, 0.89);
+}

@@ -1,0 +1,20 @@
+{
+  "name": "backend-connection-ssh",
+  "version": "1.0.0",
+  "description": "Backend da aplicação que roda scrpt via ssh em OLT ZTE",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Alison Pinho",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "icmp": "^1.4.0",
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
