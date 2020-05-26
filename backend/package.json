@@ -1,18 +1,22 @@
 {
   "name": "backend-connection-ssh",
   "version": "1.0.0",
-  "description": "Backend da aplicação que roda scrpt via ssh em OLT ZTE",
+  "description": "Backend da aplicação que roda scrpt via ssh em OLT ZTE e Mikrotik",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Alison Pinho",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "icmp": "^1.4.0",
-    "ping": "^0.2.2"
+    "knex": "^0.21.0",
+    "ping": "^0.2.2",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"

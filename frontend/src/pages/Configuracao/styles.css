@@ -8,9 +8,9 @@
     height: 100%;
 }
 .configuracao-nav-bar {
-    background-color: rgba(6, 8, 22, 0.92);
+    background-color: rgb(19, 25, 36);
     width: 100%;
-    height: 50px;
+    height: 45px;
     display: flex;
     
 }
@@ -18,13 +18,13 @@
     font-size: 20px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
+    padding: 8px;
 }
 .configuracao-nav-bar h3 {
     font-size: 20px;
     font-weight: 500;
     color: rgba(15, 212, 238, 0.7);
-    padding: 10px;
+    padding: 8px;
 }
 .div-sair {
     position: absolute;
@@ -36,17 +36,21 @@
 .body {
     position:absolute;
     top:200px;
-    left:30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .body button {
     margin: 10px;
     padding: 8px;
     border-radius: 8px;
-    color: white;
-    background-color: rgba(46, 144, 173, 0.89);
+    color: black;
+    background-color: rgb(91, 182, 209);
     border: none;
-    width: 200px;
+    width: 250px;
+    height: 50px;
 }
 .body button:hover {
-    background-color: rgba(73, 151, 175, 0.89);
+    background-color: rgba(91, 182, 209, 0.89);
+    color: white;
 }

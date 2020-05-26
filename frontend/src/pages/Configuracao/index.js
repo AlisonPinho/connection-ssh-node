@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'react-image'
 import './styles.css'
 import { useHistory, Link } from 'react-router-dom'
 import image from '../../assets/background.jpg'
@@ -29,7 +28,7 @@ export default function Configuracao () {
                     <Link onClick={()=>{history.push('/')}}><h2>Sair</h2></Link>
                 </div>
             </div>
-            <Img src={image}/>
+            <img src={image} alt="Fundo"/>
             <div className="body">
                 <button onClick={pageScriptOnu}><h3>ONU</h3></button>
                 <button onClick={pageScriptRb}><h3>Mikrotik</h3></button>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'react-image'
 import './styles.css'
 import { useHistory, Link } from 'react-router-dom'
 import image from '../../assets/background.jpg'
@@ -21,7 +20,7 @@ export default function Monitoramento () {
                     <Link onClick={()=>{history.push('/')}}><h2>Sair</h2></Link>
                 </div>
             </div>
-            <Img src={image}/>
+            <img src={image} alt="Fundo"/>
 
             
 
